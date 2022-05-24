@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SASReport applicationName="ODS" applicationVersion="9.4" dateCreated="2022-01-08T19:44:09+00:00" dateModified="2022-01-08T19:44:42+00:00" version="1.3" xmlns:style="http://www.sas.com/sasreportmodel/styles" xmlns:ods="http://www.sas.com/sasreportmodel/ods">
+	<View style:scheme="HTMLBlue" style:style="body">
+		<PageSetup size="LETTER" height="11in" width="8.5in" orientation="PORTRAIT" marginLeft="1in" marginRight="1in" marginTop="1in" marginBottom="1in" startingNumber="1">
+			<PageHeader>
+				<Text style:textAlign="right">
+					<GriddedConstraint />
+					<Span><Date style:textAlign="right">2022-01-08T19:44:09+00:00</Date>   <PageNumber style:textAlign="right"></PageNumber></Span>
+				</Text>
+			</PageHeader>
+		</PageSetup>
+		<Section>
+			<Section name="Corr_1">
+				<PageSetup size="LETTER" height="11in" width="8.5in" orientation="PORTRAIT" marginLeft="1in" marginRight="1in" marginTop="1in" marginBottom="1in">
+				</PageSetup>
+				<Section style:pageBreakAfter="always">
+					<Header style:paddingBottom="10px">
+						<GriddedLayout rowGutter="10px" columnGutter="10px" />
+						<Text style:style="systemtitle" style:textAlign="center" style:verticalAlign="middle">
+							<GriddedConstraint column="1" />
+							<Span style:style="systemtitle" style:textAlign="center">Correlations and Scatter Plot Matrix of Predictors</Span>
+						</Text>
+					</Header>
+					<Section>
+						<Header style:paddingBottom="10px">
+							<GriddedLayout rowGutter="10px" columnGutter="10px" />
+							<Text style:style="proctitle" style:textAlign="center" style:verticalAlign="middle">
+								<GriddedConstraint />
+								<Span style:style="proctitle">The CORR Procedure</Span>
+<Br />							</Text>
+						</Header>
+						<Body style:paddingBottom="10px">
+							<GriddedLayout rowGutter="10px" />
+							<Table cellPadding="5px" data="IDX" style:style="table" name="Variables Information">
+								<GriddedConstraint />
+								<Columns order="specified">
+									<Column variable="Variables" style:style="rowheader">
+										<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+										<Cell style:style="rowheader" style:textAlign="left" style:verticalAlign="middle">
+										</Cell>
+									</Column>
+									<Column variable="VarNames" style:style="data">
+										<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+										<Cell style:style="data" style:textAlign="left" style:verticalAlign="middle">
+										</Cell>
+									</Column>
+								</Columns>
+							</Table>
+							<Table cellPadding="5px" data="IDX1" style:style="table" name="Pearson Correlations">
+								<GriddedConstraint />
+								<Columns order="specified">
+									<Columns order="specified">
+										<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Pearson Correlation Coefficients, N = 100 <Br />Prob &gt; |r| under H0: Rho=0</Label>
+										<Columns style:style="rowheader" order="specified" isStacked="true">
+											<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+											<Column variable="RowName" style:style="rowheader">
+												<Cell style:style="rowheader" style:textAlign="left" style:verticalAlign="middle">
+												</Cell>
+											</Column>
+											<Column variable="RowLabel" style:style="data">
+												<Cell style:style="data" style:textAlign="left" style:verticalAlign="middle">
+												</Cell>
+											</Column>
+										</Columns>
+										<Columns style:style="data" order="specified" isStacked="true">
+											<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+											<Column variable="Matrix" style:style="data">
+												<Cell style:style="data" style:textAlign="right" style:verticalAlign="middle">
+												</Cell>
+											</Column>
+											<Column variable="Matrix2" style:style="data">
+												<Cell style:style="data" style:textAlign="right" style:verticalAlign="middle">
+												</Cell>
+											</Column>
+											<Column variable="Matrix3" style:style="data">
+												<Cell style:style="data" style:textAlign="right" style:verticalAlign="middle">
+												</Cell>
+											</Column>
+										</Columns>
+										<Columns style:style="data" order="specified" isStacked="true">
+											<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+											<Column variable="Matrix_2" style:style="data">
+												<Cell style:style="data" style:textAlign="right" style:verticalAlign="middle">
+												</Cell>
+											</Column>
+											<Column variable="Matrix2_2" style:style="data">
+												<Cell style:style="data" style:textAlign="right" style:verticalAlign="middle">
+												</Cell>
+											</Column>
+											<Column variable="Matrix3_2" style:style="data">
+												<Cell style:style="data" style:textAlign="right" style:verticalAlign="middle">
+												</Cell>
+											</Column>
+										</Columns>
+										<Columns style:style="data" order="specified" isStacked="true">
+											<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+											<Column variable="Matrix_3" style:style="data">
+												<Cell style:style="data" style:textAlign="right" style:verticalAlign="middle">
+												</Cell>
+											</Column>
+											<Column variable="Matrix2_3" style:style="data">
+												<Cell style:style="data" style:textAlign="right" style:verticalAlign="middle">
+												</Cell>
+											</Column>
+											<Column variable="Matrix3_3" style:style="data">
+												<Cell style:style="data" style:textAlign="right" style:verticalAlign="middle">
+												</Cell>
+											</Column>
+										</Columns>
+									</Columns>
+								</Columns>
+							</Table>
+						</Body>
+					</Section>
+				</Section>
+			</Section>
+		</Section>
+	</View>
+	<Data refreshPolicy="embedded">
+		<IQData type="2DEmbedded" name="IDX">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Variables">
+					</Variable>
+					<Variable encoding="text" name="VarNames">
+					</Variable>
+				</Variables>
+				<CSV>
+"9  Variables:"<Value style:style="rowheader" />, "Exports of goods and services (% Food, beverages and tobacco (% o Imports of goods and services (% Industry (including construction Service exports (BoP, current US Service imports (BoP, current US Trade (% of GDP)                 Goods exports (BoP, current US$) Goods imports (BoP, current US$)";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="IDX1">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="RowName">
+					</Variable>
+					<Variable encoding="text" name="RowLabel">
+					</Variable>
+					<Variable encoding="text" name="Matrix">
+					</Variable>
+					<Variable encoding="text" name="Matrix2">
+					</Variable>
+					<Variable encoding="text" name="Matrix3">
+					</Variable>
+					<Variable encoding="text" name="Matrix_2">
+					</Variable>
+					<Variable encoding="text" name="Matrix2_2">
+					</Variable>
+					<Variable encoding="text" name="Matrix3_2">
+					</Variable>
+					<Variable encoding="text" name="Matrix_3">
+					</Variable>
+					<Variable encoding="text" name="Matrix2_3">
+					</Variable>
+					<Variable encoding="text" name="Matrix3_3">
+					</Variable>
+				</Variables>
+				<CSV>
+"Exports of goods and services (%"<Value style:style="rowheader" />, "Exports of goods and services (% of GDP)", "Exports of goods and services (%"<Value style:textAlign="right" />, "1.00000"<Value style:textAlign="right" />, " "<Value style:textAlign="right" />, "Trade (% of GDP)"<Value style:textAlign="right" />, "0.99547"<Value style:textAlign="right" />, "&lt;.0001"<Value style:textAlign="right" />, "Imports of goods and services (%"<Value style:textAlign="right" />, "0.97905"<Value style:textAlign="right" />, "&lt;.0001"<Value style:textAlign="right" />;
+"Food, beverages and tobacco (% o"<Value style:style="rowheader" />, "Food, beverages and tobacco (% of value added in manufacturing)", "Food, beverages and tobacco (% o"<Value style:textAlign="right" />, "1.00000"<Value style:textAlign="right" />, " "<Value style:textAlign="right" />, "Industry (including construction"<Value style:textAlign="right" />, "-0.48715"<Value style:textAlign="right" />, "&lt;.0001"<Value style:textAlign="right" />, "Goods exports (BoP, current US$)"<Value style:textAlign="right" />, "-0.30985"<Value style:textAlign="right" />, "0.0017"<Value style:textAlign="right" />;
+"Imports of goods and services (%"<Value style:style="rowheader" />, "Imports of goods and services (% of GDP)", "Imports of goods and services (%"<Value style:textAlign="right" />, "1.00000"<Value style:textAlign="right" />, " "<Value style:textAlign="right" />, "Trade (% of GDP)"<Value style:textAlign="right" />, "0.99398"<Value style:textAlign="right" />, "&lt;.0001"<Value style:textAlign="right" />, "Exports of goods and services (%"<Value style:textAlign="right" />, "0.97905"<Value style:textAlign="right" />, "&lt;.0001"<Value style:textAlign="right" />;
+"Industry (including construction"<Value style:style="rowheader" />, "Industry (including construction), value added (% of GDP)", "Industry (including construction"<Value style:textAlign="right" />, "1.00000"<Value style:textAlign="right" />, " "<Value style:textAlign="right" />, "Goods exports (BoP, current US$)"<Value style:textAlign="right" />, "0.62613"<Value style:textAlign="right" />, "&lt;.0001"<Value style:textAlign="right" />, "Food, beverages and tobacco (% o"<Value style:textAlign="right" />, "-0.48715"<Value style:textAlign="right" />, "&lt;.0001"<Value style:textAlign="right" />;
+"Service exports (BoP, current US"<Value style:style="rowheader" />, "Service exports (BoP, current US$)", "Service exports (BoP, current US"<Value style:textAlign="right" />, "1.00000"<Value style:textAlign="right" />, " "<Value style:textAlign="right" />, "Service imports (BoP, current US"<Value style:textAlign="right" />, "0.88097"<Value style:textAlign="right" />, "&lt;.0001"<Value style:textAlign="right" />, "Goods imports (BoP, current US$)"<Value style:textAlign="right" />, "0.84670"<Value style:textAlign="right" />, "&lt;.0001"<Value style:textAlign="right" />;
+"Service imports (BoP, current US"<Value style:style="rowheader" />, "Service imports (BoP, current US$)", "Service imports (BoP, current US"<Value style:textAlign="right" />, "1.00000"<Value style:textAlign="right" />, " "<Value style:textAlign="right" />, "Goods imports (BoP, current US$)"<Value style:textAlign="right" />, "0.94218"<Value style:textAlign="right" />, "&lt;.0001"<Value style:textAlign="right" />, "Service exports (BoP, current US"<Value style:textAlign="right" />, "0.88097"<Value style:textAlign="right" />, "&lt;.0001"<Value style:textAlign="right" />;
+"Trade (% of GDP)"<Value style:style="rowheader" />, " ", "Trade (% of GDP)"<Value style:textAlign="right" />, "1.00000"<Value style:textAlign="right" />, " "<Value style:textAlign="right" />, "Exports of goods and services (%"<Value style:textAlign="right" />, "0.99547"<Value style:textAlign="right" />, "&lt;.0001"<Value style:textAlign="right" />, "Imports of goods and services (%"<Value style:textAlign="right" />, "0.99398"<Value style:textAlign="right" />, "&lt;.0001"<Value style:textAlign="right" />;
+"Goods exports (BoP, current US$)"<Value style:style="rowheader" />, " ", "Goods exports (BoP, current US$)"<Value style:textAlign="right" />, "1.00000"<Value style:textAlign="right" />, " "<Value style:textAlign="right" />, "Goods imports (BoP, current US$)"<Value style:textAlign="right" />, "0.89095"<Value style:textAlign="right" />, "&lt;.0001"<Value style:textAlign="right" />, "Service imports (BoP, current US"<Value style:textAlign="right" />, "0.84900"<Value style:textAlign="right" />, "&lt;.0001"<Value style:textAlign="right" />;
+"Goods imports (BoP, current US$)"<Value style:style="rowheader" />, " ", "Goods imports (BoP, current US$)"<Value style:textAlign="right" />, "1.00000"<Value style:textAlign="right" />, " "<Value style:textAlign="right" />, "Service imports (BoP, current US"<Value style:textAlign="right" />, "0.94218"<Value style:textAlign="right" />, "&lt;.0001"<Value style:textAlign="right" />, "Goods exports (BoP, current US$)"<Value style:textAlign="right" />, "0.89095"<Value style:textAlign="right" />, "&lt;.0001"<Value style:textAlign="right" />;</CSV>
+			</EmbeddedData>
+		</IQData>
+	</Data>
+	<style:CSSScheme file="correlation2_files/HTMLBlue.css" name="HTMLBlue"></style:CSSScheme>
+</SASReport>
